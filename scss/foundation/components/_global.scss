@@ -493,10 +493,12 @@ $cursor-text-value: text !default;
       @include box-sizing(border-box);
     }
 
+    //i dont want fucking body styles
+    /*
     html,
     body { font-size: $base-font-size; }
 
-    // Default body styles
+    //i dont want fucking body styles
     body {
       background: $body-bg;
       color: $body-font-color;
@@ -510,7 +512,8 @@ $cursor-text-value: text !default;
       position: relative;
     }
 
-  a:hover { cursor: $cursor-pointer-value; }
+
+  a:hover { cursor: $cursor-pointer-value; } */
 
     // Grid Defaults to get images and embeds to work properly
     img { max-width: 100%; height: auto; }
